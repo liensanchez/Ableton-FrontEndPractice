@@ -7,5 +7,12 @@ h1, h2, h3, p, li, ul{
 }
 /*====================================================================*/
 @media screen and (min-width:375px){
+  /*==================================================================HEADER*/
+  .menu-container-first{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: 5px;
+    }
 
 }
