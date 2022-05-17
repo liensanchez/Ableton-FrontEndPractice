@@ -14,5 +14,15 @@ h1, h2, h3, p, li, ul{
     padding-left: 5px;
     padding-top: 5px;
     }
+  
+  .icon-header{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+
+  .menu-container-content{
+    display: none;
+  }
 
 }
