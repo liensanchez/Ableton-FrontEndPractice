@@ -2,8 +2,13 @@
   margin: 0;
   padding: 0;
 }
-h1, h2, h3, p, li, ul{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@font-face {
+  font-family: Futura PT Heavy;
+  src: url(/assets/font/FuturaPTHeavy.otf);
+}
+@font-face {
+  font-family: Futura PT Light;
+  src: url(/assets/font/FuturaPTLight.otf);
 }
 /*====================================================================*/
 @media screen and (min-width:375px){
@@ -11,6 +16,7 @@ h1, h2, h3, p, li, ul{
   .header{
     height: 60px;
     border-bottom: 2px solid;
+    font-family: Futura PT Heavy;
   }
 
   .img-header{
@@ -18,8 +24,8 @@ h1, h2, h3, p, li, ul{
   }
 
   .icon-header{
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
   }
 
   .menu-container-first{
@@ -36,6 +42,7 @@ h1, h2, h3, p, li, ul{
 
   .sub-menu{
     height: 40px;
+    font-family: Futura PT Heavy;
     display: flex;
     flex-direction: row;
     padding-left: 15px;
@@ -48,8 +55,26 @@ h1, h2, h3, p, li, ul{
   }
 
   /*=================================================================BODY*/
+  .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .ableton-title{
+    width: 50%;
+    position:absolute;
+    padding-top: 75px;
+    fill:  #ff764d;
+  }
   .ableton-pc{
-    width: 70%;
+    width: 80%;
+    overflow: hidden;
+  }
+
+  p{
+    font-family: Futura PT Light, sans-serif;
   }
 
 }
